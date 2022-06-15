@@ -1,0 +1,62 @@
+.navigation{
+    font-family: 'Indie Flower', cursive;
+}
+*{
+    font-family: 'Amatic SC', cursive;
+    font-weight: bold;
+    color: oldlace;
+    padding: 0;
+    margin: 0;
+    border-width: 0;
+}
+.navy{
+    color: navy;
+}
+.airred{
+    color: orangered;
+}
+
+body{
+    background-color: rgb(97, 97, 131);
+    padding: 50px;
+}
+
+button{
+    color: goldenrod;
+}
+
+.main-header{
+    display: flex;
+}
+.header-text{
+    flex: 1;
+    text-align: center;
+}
+.header-photo{
+    flex: 1;
+}
+.header-photo img{
+    width: 30%;
+    border-radius: 150px;
+
+}
+.portfolio{
+    display: flex;
+    justify-content: baseline;
+
+}
+
+.project-card{
+    width: 32%;
+    margin: 50px 20px;
+    background-color: gray;
+    padding: 20px;
+    border-width: 5px;
+    border-color: #AAAAAA;
+    border-style: double;
+    border-radius: 10px;
+    flex: 1;
+}
+.project-image img {
+    width: 100px;
+}
